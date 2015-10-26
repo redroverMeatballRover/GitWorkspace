@@ -1,0 +1,125 @@
+//this identifies the piece selected, and moves a piece anywhere the user chooses
+//even where there is another piece
+//beginning to check for check of king
+//confirm check of king by pawn, king can move anywhere to test
+//all illegal or legal moves allowed -
+//^ operator = xor
+//************************************
+//chess20 has previous bugs fixed plus knights and move and check the king
+//************************************
+//Chess21 has logic for moving bishops and taking pieces, but there are bugs
+//************************************
+//Chess22 has logic for detecting squares attacked by pawns
+//next step is to break this into two arrays to handle exceptions of white
+//and black attacking the same square
+//or use a another code: 3 to denote attacked by both white and black
+//Chess 23
+//king rules for movement
+//pawn rules for movement, check, squares attacked
+//knight rules for movement, check, squares attacked
+//bishop rules for movement
+//Chess 24
+//king rules for movement, N/A
+//pawn rules for movement, check, squares attacked
+//knight rules for movement, check, squares attacked
+//bishop rules for movement, check
+//Chess 25
+//fixed the bug where a player can moved a pinned piece into check
+//Chess 26
+//king rules for movement, N/A, squares attacked
+//pawn rules for movement, check, squares attacked
+//knight rules for movement, check, squares attacked
+//bishop rules for movement, check, still got bugs
+//Chess 27
+//king rules for movement, N/A, squares attacked
+//pawn rules for movement, check, squares attacked
+//knight rules for movement, check, squares attacked
+//bishop rules for movement, check, squares attacked
+//rook rules for movement
+//Chess 28
+//king rules for movement, N/A, squares attacked
+//pawn rules for movement, check, squares attacked
+//knight rules for movement, check, squares attacked
+//bishop rules for movement, check, squares attacked
+//rook rules for movement
+//queen rules for movement
+//*********************************
+//Chess 30 one bug fixed
+//Dead bishops attacked the king still so we
+//added an additional condition to check a piece's visible property
+//Dead pieces go to the square row 11 column 11
+//this is why the bishops were attacking
+//**************************************************
+//Chess 31
+//king   rules for movement, N/A,   squares attacked
+//pawn   rules for movement, check, squares attacked
+//knight rules for movement, check, squares attacked
+//bishop rules for movement, check, squares attacked
+//rook   rules for movement, check
+//queen  rules for movement, check
+//Chess 32
+//pawns promote
+//king   rules for movement, N/A,   squares attacked
+//pawn   rules for movement, check, squares attacked
+//knight rules for movement, check, squares attacked
+//bishop rules for movement, check, squares attacked
+//rook   rules for movement, check, squares attacked
+//queen  rules for movement, check, squares attacked
+//Chess 33
+//kings can castle
+//What's left
+//promote the pawns 	check!
+//castle the king		check!
+//determine checkmate
+//keep the king from moving into check
+
+/*for alternate turns uncomment
+line   42
+line  146
+line  235
+line  237
+line 1526
+*/
+
+//boolean piece_taken = false;
+//System.out.println("piece = " + pieceChosen);
+//pieces[pieceChosen].row = oldx;
+//pieces[pieceChosen].column = oldy;
+//piece_taken = true;
+//System.out.println("found = " + foundpiece);
+//oldx = pieces[pieceChosen].row;
+//oldy = pieces[pieceChosen].column;
+//System.out.println("canmove = " + canmove);
+//System.out.println("Got a pawn");
+//System.out.println("Legal move pawn");
+//System.out.println("found = " + piecefound);
+//System.out.println("x1 = " + pieces[pieceChosen].row);
+//System.out.println("x2 = " + x);
+//System.out.println("y1 = " + pieces[pieceChosen].column);
+//System.out.println("y2 = " + y);
+//System.out.println("piece2 = " + pieceChosen);
+//System.out.println("color = " + pieces[pieceChosen].color);
+//System.out.println("x="+x+" y="+ y);
+//System.out.println("k = " + rowArray[k]);
+//System.out.print("row = " + pieces[counter].row);
+//System.out.print(" column = " + pieces[counter].column);
+//System.out.println(" color = " + pieces[counter].color);
+//System.out.println(j*iWidth+ " ");
+//System.out.println("numclicks = " + numclicks);
+//System.out.println("length = " + length);
+//System.out.println("name = " + pieces[pieceChosen].name);
+//System.out.println("x = " + (x / 50));
+//System.out.println("y = " + (y / 50));
+//System.out.println("over 2");
+//if (pieces[pieceChosen].color.equals("black"))
+//	numRook = 7;
+//System.out.println("rook = " + numRook);
+//System.out.println("row = " + pieces[pieceChosen].row);
+//System.out.println("col = " + pieces[pieceChosen].column);
+//System.out.println("i = " + i);
+//System.out.println("canmove = " + canmove);
+//String temp;
+//temp = Integer.toString(y / 50 + 1);
+//System.out.println("rawx = " + temp);
+//temp = Integer.toString(x / 50 + 1);
+//System.out.println("rawy = " + temp);

@@ -1,0 +1,86 @@
+Chapter 1:
+What is the fundamental element that makes up a java program?
+a. objects (answer)
+b. houses
+c. boats
+d. all of the above
+
+What is one of the four types of computer languages?
+a. assembly (answer)
+b. english
+c. math
+d. GUI
+
+Identifiers fall into three categories. What is one of these categories?
+a. words we find in a book.
+b. words that we make up when writing a program. (answer)
+c. words that have caps.
+d. words that are not english words.
+
+What are the three types of errors that you will encounter when developing a program? 
+a. compile-time, hardware, machine
+b. run-time, logical, machine
+c. rune-time, compile-time, hardware
+d. compile-time, run-time, logical (answer)
+
+chapter 2:
+What is one of the escape sequences?
+a. \w
+b. \t (answer)
+c. \1
+d. \v
+
+A conversion between one primitive type and another falls into one of two categories.
+What are they?
+a. Widening and Narrowing (answer)
+b. Widening and Lessening 
+c. Narrowing and Thickening
+d. Narrowing and Converting
+
+What does an assignment statement do?
+a. assigns a method to a class
+b. assigns a value to a variable (answer)
+c. assigns a boolean to a class
+d. assigns an integer to a method
+
+Chapter 3:
+What is a class library?
+a. The variables of a class
+b. A library with books on how to make classes
+c. A set of classes that supports the development of a class (answer)
+d. The parameters of the class constructer
+
+What does a pseudorandom number generater do?
+a. Picks a truly random number.
+b. Does a complex calculation to create the illusion of randomness (answer)
+c. Picks numbers in order
+d. Takes a number you give it to create random numbers.
+
+chapter 4:
+What is one type of loop?
+a. class
+b. method
+c. for (answer) 
+d. robust
+
+What is the programmers responsibility when creating a loop?
+a. prevent an infinite loop (answer)
+b. use a specific type of loop
+c. don't use a class 
+d. be good at reading binary
+
+chapter 5:
+An object has what?
+a. behaviors and inheritance
+b. behaviors and order
+c. state and order
+d. state and behaviors (answer)
+
+The classes in a software system have various types of relationships to each other.
+What is one of these relationships?
+a. accessor
+b. public 
+c. private
+d. aggregation
+
+ 

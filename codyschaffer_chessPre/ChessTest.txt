@@ -1,0 +1,8 @@
+pla7 a5 
+rla8 a6 
+rla6 d3
+ndb8 a6
+kdb8 a6
+
+
+

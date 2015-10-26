@@ -1,0 +1,37 @@
+Chapter 8: Inheritance
+
+
+Section 1 - Creating Subclasses
+---------------------------------------------------------------------------------------------------------------------------------------
+
+A Class is similar to a blueprint and Objects made from it like a house. Each Class has set variables and other
+aspects for Objects to embody and make. However, while multiple houses may come from one blueprint, not all houses
+are exactly the same. By using Inheritance, one can make new Objects of similar type by creating new Subclasses
+that draw on an existing Class.
+ 
+Inheritance means that a new Class will automatically contain variables and methods defined in the already made
+Class. From there it can be fine-tuned with custom methods and variables to fufill a more specific purpose.One can
+even modify the inherited aspects. Inheritance is a powerful tool and a hallmark of object-oriented programming.
+ 
+Inheriting can make programming a whole easier since it saves the programmer from having to write new variables
+and methods from scratch repeatedly. It also supports the idea of software reuse, the idea of making good use of
+existing code to make a more streamlined and efficient program.
+ 
+The Class being derived from is the ~parent class~ or ~base class~ while the derived class is the ~child class~
+or ~subclass~. This relation is shown in UML by an arrow with an open arrowhead point at the child class.
+ 
+-The Protected modifier- (Just between you and me...)
+The protectd modifier ensures that the variable is able to be inherited throughout the code. 
+ 
+-The Super Reference- (it's a bird! it's a plane! it's whatever you constructed!)
+Note that Constructors are not inherited. They are special methods that are to set up particula objects. However,
+should a child class need to reference the constructor of the parent class, the ~super Reference~ is used. Using
+this, one can access a parent's memebers. It is dependent on the class where it is used.
+the super reference is commonly used to inovke a parent's constructor. This used when you need to rely on a
+parent's contructor which takes in parameters but the child has a constructor of it's own.
+
+-Multiple Inheritance- (I have HOW many Dads?!)
+~Multiple Inheritance~ allows one child to have multiple parents. This works great if the child fits more than one
+is-a arguements but can become complex in events like when two parents have a similarly named method.  
+Instead, Java uses Interfaces to provide the best of multiple inheritance without the complexity.
+ 

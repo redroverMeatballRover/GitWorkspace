@@ -1,0 +1,49 @@
+Chapter 1: Introduction
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-Java is an object-oriented programming language. Objects are the fundamental elements that make up a program.
+-The Java language is accompanied by a library of extra software that we can use when developing programs called the Java standard class library.
+-Comments are used to help a human understand a program. Any writtencomments or documents, including a user’s guide and technical
+ references, are called documentation.(// comment or /* comment */)
+
+-The body of a program is called the class definition and runs from the first opening brace ({) to the final closing brace (}).
+-A method is a group of programming statements that is given a name. All Java applications have a main method, which is where processing begins.
+-The various words used when writing programs are called identifiers. These fall into three categories:
+	* Words that we make up when writing a program.
+	* Words that another programmer chose (String, System, out, println, and main).
+	* Words that are reserved for special purposes in the language (class, public, static, and void).
+
+-Java is case sensitive. The uppercase and lowercase versions of a letter are distinct.
+-All Java programs use white space to separate the words and symbols used in a program. 
+White space consists of blanks, tabs, and newline characters.
+-Programming languages can be categorized into the following four groups. 
+
+These groups basically reflect the historical development of computer languages.
+	* machine language
+	* assembly language
+	* high-level languages
+	* fourth-generation languages
+
+-All programs must be translated to a particular CPU’s machine language in order to be executed.
+-High-level languages allow a programmer to ignore the underlying details of machine language.
+-Initially, you use an editor as you type a program into a computer and store it in a file.
+-A compiler is a program that translates code in one language to equivalent code in another language.
+The original code is called source code, and the language into which it is translated is called the target language.
+-An interpreter is similar to a compiler but has an important difference. An interpreter interweaves the translation and execution activities.
+-A software development environment is the set of tools used to create, test, and modify a program.
+-Some environments are referred to as integrated development environments (IDEs) because they integrate various tools into one software program.
+-Graphical user interface (GUI) is a user interface with windows, menus, buttons, etc.
+-Each programming language has its own unique syntax. The syntax rules of a language dictate exactly how the vocabulary elements of the 
+language can be combined to form statements.
+-The semantics of a statement in a programming language define what will happen when that statement is executed.
+-You will encounter three kinds of errors as you develop programs:
+	* compile-time error
+	* run-time error
+	* logical error
+
+
+
+
+
+
+
+

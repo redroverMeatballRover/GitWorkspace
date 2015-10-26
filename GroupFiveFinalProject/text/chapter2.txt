@@ -1,0 +1,59 @@
+Chapter 2: Data & Expressions
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-The println method is a service that the System.out object performs for us. Whenever we request it, the object will print a character string to the screen.
+-Each piece of data that we send to a method is called a parameter
+
+-When we want to print a string that is too long to fit on one line in a program, we can rely on string concatenation to append one string to 
+the end of another. The string concatenation operator is the plus sign (+).
+
+-An escape sequence can be used to represent a character that would otherwise cause compilation problems.(\b, \t, \n, etc.)
+-A variable is a name for a location in memory used to hold a data value.
+
+-An assignment statement assigns a value to a variable. When executed, the expression on the right-hand side of the assignment operator (=) is 
+evaluated, and the result is stored in the memory location indicated by the variable on the left-hand side.
+
+-Constants are identifiers and are similar to variables except that they hold a particular value for the duration of their existence.
+-There are eight primitive data types in Java: four subsets of integers, two subsets of floating point numbers, a character data type, and a boolean data type.
+-A character literal is expressed in a Java program with single quotes, such as 'b' or 'J' or ';'.
+-Java uses the 16-bit Unicode character set to represent character data.
+-A boolean value, defined in Java using the reserved word boolean, has only two valid values: true and false.
+-An expression is a combination of one or more operators and operands that usually performs a calculation.
+
+-The usual arithmetic operations are defined for both integer and floating point numeric types, including addition (+), subtraction (–),
+ multiplication (*), and division (/).
+
+-Java follows a well-defined set of precedence rules that governs the order in which operators will be evaluated in an expression.
+-The increment operator (++) adds 1 to any integer or floating point value.
+-The decrement operator (--) is similar except that it subtracts 1 from the value.
+-As a convenience, several assignment operators have been defined in Java that combine a basic operation with assignment.(+=)
+
+-A conversion between one primitive type and another falls into one of two categories: widening conversions and narrowing conversions.
+	* Widening conversions go from one data type to another type that uses an equal or greater amount of space to store the value.
+	* Narrowing conversions go from one type to a type that uses less space to store a value, and therefore some of the information may be compromised.
+
+-Assignment conversion occurs when a value of one type is assigned to a variable of another type during which the value is converted to the new type.
+-The Scanner class provides methods for reading input of various types from various sources.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

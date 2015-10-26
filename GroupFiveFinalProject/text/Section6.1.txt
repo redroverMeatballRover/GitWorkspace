@@ -1,0 +1,33 @@
+Section 6.1: GUI Elements
+
+Many programs provide a graphical user interface (GUI) through which a user interacts with the program. As the name implies, 
+a GUI makes use of graphical screen components such as windows, buttons, check boxes, menus, and text fields. GUIs often 
+provide a more natural and rich experience for the user comparedd to a simple text-based, command line environment. 
+This chapter explores the various issues related to developing a GUI in Java. 
+This study guide will cover and isolate the main points in this section. 
+
+GUI = Graphical User Interface
+The basis of all GUIs : Components = object that defines a screen element used to display information / allow a user to interact with a program.
+		  Listeners       = object that "waits" for an event to occur and responds in some way when it does. 
+		  Events 	       = object that represents some occurance in which we may be interested. 
+A big part of designing a GUI-based program is establishing the relationships among the listener, the event it listens for, and the 
+component that will generate the event.
+containers = special type of component used to hold and organize other components.
+
+TO CREATE A GUI PROGRAM:
+¦ instantiate and set up the necessary components,
+¦ implement listener classes that define what happens when particular events occur
+¦ establish the relationship between the listeners and the components that generate the events of interest.
+
+Frame = container that is used to display GUI-based Java applications, it is defined by the JFrame class.
+Panel =  container that needs to be added to another container for it to be displayed. Primary Role: help organize the other 
+components in a GUI. A panel is defined by the JPanel class.
+
+HeavyWeight container =  one that is managed by the underlying operating system on which the program is run
+		     - ex: a frame
+LightWeight container = managed by the Java program itself
+		    - ex: a panel
+Buttons & Action Events
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Label =  created from the JLabel class. It is a component that displays a line of text in a GUI. A label can also be used to display an image.
+Listener Classes = written by implementing an interface.

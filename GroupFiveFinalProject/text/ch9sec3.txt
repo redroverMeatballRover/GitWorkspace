@@ -1,0 +1,37 @@
+Section 3 - Interfaces
+ 
+The ~Interface~ is a collection of constants and abstract methods. It's actually very similarly used as abstract
+classes discussed in the previous chapter. The methods have no bodies just like in abstract classes. Note that
+interfaces can not be instantiated. Classes ~implement~ interfaces and all of theirmethods. ALL Methods must be
+implemented for it to work. ~Implements~ is a reserved word and it follows the name of the desired interface. This
+is placed where the Class is declared.
+ 
+In UML, an interface looks similar to a clas node but has <<interface>> added above the interface name and is
+connected to the class that implements it by a dotted line with a triangle arrowhead.
+ 
+Bear in mind that interfaces only define what methods to implement, not how to implement them. Also, multiple
+interfaces may be implemented by separating their names with a comma.
+ 
+-Interface Hierarchies- (Hail right in theinterface)
+That's right! Interfaces also have a hierachy just like classes. One interface can be derived from another. These
+hierarchies are shown the same way in UML as class hierachies are but with an <<Interface>> in the node. Visibility
+is also a non-issue since all aspects of interfaces are public anyway.
+ 
+Interface and class hierarchies don't overlap. One can not derive a class from an interface and vice versa. They
+only interact when a class implements an interface.
+ 
+-The Comparable Interace- (Comparable to what?)
+This interface is in the Java standard class library. It contains the compareTo method and is meant to return a
+bolean. It can be used by setting up an if statement with what is to be compared.
+ 
+if(obj1.compareTo(obj2) < 0)
+  System.out.println("obj1 is less than obj2');
+As shown above, the integer that is returned from the compareTo method should be negative if obj1 is less than
+obj2, 0 if they are equal, and positive if obj1 is greater than obj2. It is up to the prgrammer to decide how
+to set this up.
+ 
+-The Iterator Interface- (Counting time!)
+Also defined in the Java standard class library. It is used by a class that represents a series of objects so as
+to be a way to move thorugh a collection one object at a time. It's primary mthods are hasNext, which returns a
+bolean, and next, which returns an object. hasNext will stay true as long as there is an item left to go through.
+next will return the next object. It is up to the programmer to decide the order of objects.

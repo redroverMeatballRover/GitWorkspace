@@ -1,0 +1,22 @@
+Section 6.4: Mouse and Key Events
+
+There are events that are fired when the user interacts with the computer’s mouse and keyboard. We can design a 
+program to capture and respond to these as well.
+
+Mouse Events
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Mouse Events = Events including mouse pressed, mouse released, mouse clicked, mouse entered, and mouse exited.
+Mouse Motion Events = mouse moved and mouse dragged
+
+Key Events
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Key Event =  Generated when a keyboard key is pressed. Key events allow a program to respond immediately
+ to the user while he or she is typing or pressing other
+keyboard keys such as the arrow keys.
+
+Extending Adapter Classes
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Event Adapter Class = An alternative technique for creating a listener class via inheritance. Each listener interface 
+that contains more than one method has a corresponding adapter class that already contains empty 
+definitions for all of the methods in the interface.
+

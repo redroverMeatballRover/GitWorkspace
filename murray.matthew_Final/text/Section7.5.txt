@@ -1,0 +1,10 @@
+Section 7.5: Variable-Length Parameter Lists
+
+Suppose we wanted to design a method that processed a different amount of data from 
+one invocation to the next. For example, let’s design a method called average that accepts 
+a few integer values and returns their average. In one invocation of the method we might pass
+in three integers to average: mean1 = average(42, 69, 37); In another invocation of the same method we might pass in seven
+integers to average: mean2 = average(35, 43, 93, 23, 40, 21, 75); To accomplish this we could define 
+overloaded versions of the average method (as we did in the exercises at the end of Chapter 5). But that solution
+doesn’t scale to an arbitrary set of input values. It would require that we know the maximum number 
+of parameters there might be and create a separate version of the method for each possibility.

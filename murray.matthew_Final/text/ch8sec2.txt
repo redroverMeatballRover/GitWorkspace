@@ -1,0 +1,20 @@
+Section 2 - Overriding Methods
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+When a child class defines an inherited method, it will ~override~ that method in favor for its own.
+ 
+Suppose your paprent, Saying, had a method, wisdom, inside of it. The wisdom method would print a generic line
+when called from Saying. However, Saying has a child in the class, SleepingDogs. SleepingDogs is to inherit
+aspects from Saying but instead of using wisdom to print a generic line, it defines its own wisdom method to print
+"Let sleeping dogs lie.". Thus, calling wisdom from SleepingDogs will have it print "Let sleeping dogs lie."
+becuase it overrode the original generic line.
+ 
+Should one want a method to never be overridden, the ~final modifer~ can be used to make sure it is left untouched
+and that the child will use a particular definition of a method.
+ 
+-Shadowing Variables- (Lurking in the shadows)
+Though most programmers would advise against it, a child can define a variable with the same name as one inherited
+from the parent.This is different from giving an inherited variable a new value. This is called
+~variable shadowing~. It is kind of like overriding but it's not.More often than not, this is actually a pointless
+technique since it is confusing and tends to be entirely superfluous. Take our word for it, try to avoid it.
+ 

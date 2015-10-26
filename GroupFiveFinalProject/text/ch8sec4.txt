@@ -1,0 +1,8 @@
+Section 4 - Visibility
+ -----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Make sure to design classes for visibility. If one class needs to keep some aspects to itself, they should be
+set private. If they need to affected by the whole program, set it to public. If an aspect is only important
+between child and parent, make it protected.Feel mfree to mix these in a class as needed.
+ 
+Not much new to be said here, really.

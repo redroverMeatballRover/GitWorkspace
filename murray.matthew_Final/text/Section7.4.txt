@@ -1,0 +1,7 @@
+7.4 Command-Line Arguments
+
+The Java run-time environment invokes the main method when an application is submitted to 
+the interpreter. The String[] parameter, which we typically call args, represents command-line arguments 
+that are provided when the interpreter is invoked. Any extra information on the command line when the
+interpreter is invoked is stored in the args array for use by the program. This technique is
+another way to provide input to a program.

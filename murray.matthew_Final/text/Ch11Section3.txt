@@ -1,0 +1,21 @@
+Section 11.3: Using Recursion
+
+The following sections describe problems that we then solve using recursion. For
+each one, we examine exactly how recursion plays a role in the solution and how
+a base case is used to terminate the recursion. As you examine these examples,
+consider how complicated a non-recursive solution for each problem would be.
+
+Traversing a Maze
+
+Solving a maze involves a great deal of trial and error: following a path, backtracking
+when you cannot go farther, and then trying other previously untried options.
+Such activities often are handled nicely using recursion. The program
+shown in Listing 11.1 creates a Maze object and attempts to traverse it.
+
+The Maze class shown in Listing 11.2 on page 456 uses a two-dimensional array
+of integers to represent the maze. The goal is to move from the top-left corner
+(the entry point) to the bottom-right corner (the exit point). Initially, a 1 indicates
+a clear path and a 0 indicates a blocked path. As the maze is solved, these array
+elements are changed to other values to indicate attempted paths and ultimately a
+successful path through the maze if one exists.
+

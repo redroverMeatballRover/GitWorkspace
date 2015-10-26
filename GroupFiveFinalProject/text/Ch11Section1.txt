@@ -1,0 +1,7 @@
+Section 11.1: Recursive Thinking
+
+Recursion, a programming technique in which a method calls itself in order to fulfill its purpose.
+A key to being able to program recursively is to learn to think recursively. One must be careful
+with recursion. Like loops, infinite recursion will occur if there is nothing to stop it. Any 
+recursive definition must have a non-recursive part, called the base case, which permits the 
+recursion to eventually end. Recursion is useful for mathmatical methods.

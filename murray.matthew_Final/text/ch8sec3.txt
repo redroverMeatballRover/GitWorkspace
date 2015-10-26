@@ -1,0 +1,24 @@
+Section 3 - Class Hiearchies
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+A child can also be a parent. Also, a single parent can spawn muliple children. These inheritances can become
+~class hierachies~. There aren't limits to this and multiple children from the same parents are called
+~sibling classes~.
+ 
+One must try their best to keep the most common aspects at the top as the flow of these hiearchies is transitive.
+That is, it trickles down from the top orignal classes to the bottom.
+ 
+-The Object Class- (Alpha and Omega)
+In Java, pretty much all classes are derived from the ~Object class~. it is the bread and butter of Java and any
+class that doesn't use the extends clause to draw from a specefic class will take from the Object class. Looking
+back, you may already have been using Object class methods. The toString method is one such method.It is pretty
+much your code's god.
+ 
+-Abstract Classes- (Picasso would know these)
+An ~abstract class~  is a class that is generic but contains partial descriptions and empty methods that it's
+children can inherit and define.Generally, these are at the top but non-absteact parents can have abstract classes
+derived from it.
+ 
+When a child classes is derived from an abstract class, it must define all the methods it inherits or else it
+is also considered abstract. Also note that abstract class methods can't be final or static as they have to be
+overidden and on a individual basis.

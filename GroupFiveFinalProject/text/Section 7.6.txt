@@ -1,0 +1,11 @@
+Section 7.6: Two-Dimensional Arrays
+
+Two-Dimensional Array = has values in two dimensions, which are often thought of as the rows and columns of a table.
+
+Brackets are used to represent each dimension in the array. Therefore the type of a two-dimensional array that stores 
+integers is int[][]. Technically,  Java represents a two-dimensional array as an array of arrays. So a two-dimensional
+integer array is really a one-dimensional array of references to one-dimensional integer arrays.
+
+Nested for loops are used in the TwoDArray program to load the array with values and also to print those values in a table format.
+
+Any array with more than one dimension is called a multidimensional array.

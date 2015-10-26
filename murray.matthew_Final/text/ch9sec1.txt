@@ -1,0 +1,26 @@
+Chapter 9: Polymorphism
+---------------------------------------------------------------------------------------------------------------------------------------------- 
+Section 1 - Late Binding
+ 
+So, the type of reference varaible will match the class of the class it refers to.
+ 
+Dog husky;
+ 
+The husky variable is clearly an object of the Dog class. Here's the catch, it doesn't haven't to be! Of course,
+the variable type and the object it points to must be compatible but other than that, the types don't have to be
+complete matches.
+ 
+~Polymorphism~ means "having many forms". A ~polymorphic reference~ is a reference variable that can refer to
+different object at different points in time. The variable can be excuted at one point in the program for one
+effect and then activated again later for a different effect.
+ 
+At some point, a commitment is made to execute certain code to do a certain method invocation. This is called
+~binding~ a method invocation to a method definition. Most times, binding occurs at compile time. However, for
+polymorphic reasons, Java does binding at run time. The method definition used is determined by which method
+invocation it has at the time. This is ~late binding or dynamic binding~.it's slightly less effiecent than early
+binding but allows much more flexibility in code.
+ 
+There are two ways to create polymorphism in Java. By inheritace and by interface.
+ 
+See? NOW I can tell you the story.
+ 

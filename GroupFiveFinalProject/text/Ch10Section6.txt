@@ -1,0 +1,36 @@
+Section 10.6: IO Exceptions
+
+Processing input and output is a task that often produces tenuous situations, given that it relies
+on external resources such as user data and files. These resource scan have various problems that 
+lead to exceptions being thrown. Let’s explore some I/O issues and the problems that may arise.
+
+A stream is an ordered sequence of bytes. The term stream comes from the analogy that as we read 
+and write information, the data flows from a source to a destination (or sink) as water flows 
+down a stream. The source of the information is like a spring filling the stream, and the 
+destination is like a cave into which the stream flows.
+
+In a program, we treat a stream as either an input stream, from which we read information, or as 
+an output stream, to which we write information. A program can deal with multiple input and 
+output streams at one time. A particular store of data, such as a file, can serve either as an 
+input stream or as an output stream to aprogram, but it generally cannot be both at the same time.
+
+You should already be familiar to system.in (input stream) and system.out (output stream). There
+is a third standard I/O stream. It is the system.err (error stream, output in red).
+
+In addition to the standard input streams, the java.io package of the Java
+standard class library provides many classes that let us define streams with particular
+characteristics. Some of the classes deal with files, others with memory,
+and others with strings. Some classes assume that the data they handle consists
+of characters, whereas others assume the data consists of raw
+bytes of binary information. Some classes provide the means to
+manipulate the data in the stream in some way, such as buffering
+the information or numbering it. By combining classes in appropriate
+ways, we can create objects that represent a stream of information
+that has the exact characteristics we want for a particular
+situation.
+
+Many operations performed by I/O classes can potentially throw an
+I/O Exception. The IOException class is the parent of several exception classes
+that represent problems when trying to perform I/O. These exceptions are checked exceptions.
+
+

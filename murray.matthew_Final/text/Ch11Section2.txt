@@ -1,0 +1,32 @@
+Section 11.2: Recursive Programming
+
+In Java, as in many other programming languages, a method can call itself. Each recursive call to 
+a method creates new local variables and parameters. In other words, all local variables and 
+parameters are newly defined with their own unique data space every time the method is called. 
+Each parameter is given an initial value based on the new call. Each time a method terminates, 
+processing returns to the method that called it (which may be an earlier invocation of the same
+method). These rules are no different from those governing any “regular” method invocation.
+
+// This method returns the sum of 1 to num
+public int sum (int num)
+{
+	int result;
+	if (num == 1)
+		result = 1;
+	else
+		result = num + sum (num-1);
+	return result;
+}
+As you can see above, recursive methods can work under a variarity of different situation and
+still produce the desired result. Of course anything done recursively can be solved iteratively.
+Depending on the situation, one may be better to use than the other.
+
+So far the only examples you have seen in this study guide is direct resursion. This is where the
+method calles itself. Indirect recursion is where the first method calles another method and
+eventually the first method is called again. The calls have to be within the methods.
+
+Indirect recursion requires all of the same attention to base cases that direct recursion
+requires. Furthermore, indirect recursion can be more difficult to trace because
+of the intervening method calls. Therefore extra care is warranted when designing
+or evaluating indirectly recursive methods. Ensure that the indirection is
+truly necessary and clearly explained in the program’s documentation.

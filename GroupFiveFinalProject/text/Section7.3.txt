@@ -1,0 +1,6 @@
+7.3 Arrays of Objects
+
+Arrays can also store references to objects as elements. Fairly complex information management structures 
+can be created using only arrays and other objects. For example, an array could contain objects, and each 
+of those objects could consist of several variables and the methods that use them. Those variables could
+themselves be arrays, and so on.

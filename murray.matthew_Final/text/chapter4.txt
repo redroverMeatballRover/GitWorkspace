@@ -1,0 +1,41 @@
+Chapter 4: Conditionals & Loops
+
+
+-Conditionals and loops allow us to control the flow of execution through a method.
+-An if statement allows a program to choose whether to execute a particular statement.
+-A conditional statement is sometimes called a selection statement because it allows us to choose which statement will be executed next.
+-A loop allows a program to execute a statement multiple times.
+-Java has three types of loop statements: the while statement, the do statement, and the for statement.
+-Java also has several relational operators that let us decide the relative ordering between two values.
+-The ! operator is used to perform the logical NOT operation, which is also called the logical complement.
+-A logical operation can be described by a truth table that lists all possible combinations of values for the variables involved in an expression.
+-The && operator performs a logical AND operation. The result of an && operation is true if both operands are true, but false otherwise.
+-Compare that to the result of the logical OR operator (||), which is true if one or the other or both operands are true, but false otherwise.
+-Logical operators can be used to construct sophisticated conditions.
+-An if statement consists of the reserved word if followed by a boolean expression, followed by a statement.
+-Proper indentation is important for human readability; it shows the relationship between one statement and another.
+
+-Sometimes we want to do one thing if a condition is true and another thing if that condition is false. We can add an else clause to an if statement, 
+making it an ifelse statement, to handle this kind of situation.
+
+-In Java, we can replace any single statement with a block statement. A block statement is a collection of statements enclosed in braces.
+-The Java conditional operator is similar to an if-else statement in some ways. It is a ternary operator because it requires three operands.
+
+-The statement executed as the result of an if statement could be another if statement. This situation is called a nested if. It allows us to make 
+another decision after determining the results of a previous decision.
+
+-In a nested if statement, an else clause is matched to the closest unmatched if.
+-Two floating point values are equal, according to the == operator, only if all the binary digits of their underlying representations match.
+-The relative order of characters in Java is defined by the Unicode character set.
+-The compareTo method can be used to determine the relative order of strings.
+
+-Another conditional statement in Java is called the switch statement, which causes the executing program to follow one of several paths based on a single
+value. A break statement is used to break out of a switch statement. 
+
+-A while statement executes the same statement repeatedly until its condition becomes false.
+-We generally want our programs to be robust, which means that they handle potential problems as elegantly as possible.
+
+-It is the programmer’s responsibility to ensure that the condition of a loop will eventually become false. If it doesn’t, the loop body will execute 
+forever, or at least until the program is interrupted. This situation, referred to as an infinite loop, is a common mistake.
+
+

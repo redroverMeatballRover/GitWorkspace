@@ -1,0 +1,11 @@
+qdd8 h4 
+qlc4 d6* 
+e1 g1 h1 f1 
+pla2 b3
+ndb8 d6
+kde6
+e1 b1 a1 c1
+bdd3
+d3h6 h5
+
+

@@ -1,0 +1,16 @@
+Chapter 7: ARRAYS
+
+C H A P T E R O B J E C T I V E S
+¦ Define and use arrays for basic data organization.
+¦ Discuss bounds checking and techniques for managing capacity.
+¦ Discuss the issues related to arrays as objects and arrays of objects.
+¦ Explore the use of command-line arguments.
+¦ Describe the syntax and use of variable-length parameter lists.
+¦ Discuss the creation and use of multidimensional arrays.
+
+7.1 Array Elements
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Array =  a programming language construct used to group and organize data, such as a list of 100 values. Each value is stored 
+at a specific, numbered position in the array.
+Index / Subscript = The number corresponding to each position in an array. Array indexes always begin at zero.
+An array with a length of 10 has indexes from 0 - 9.

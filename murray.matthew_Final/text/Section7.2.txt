@@ -1,0 +1,41 @@
+7.2 Declaring and Using Arrays
+
+Array Element = type of value an array holds. 
+Every Java array is an iterator.
+
+Bounds Checking
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bounds Checking = The index operator performs automatic bounds checking, which ensures that the index is in range for the array 
+being referenced.
+
+
+Alternate Array Syntax
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+two ways to declare an array reference in Java: 
+
+int[] grades
+int grades[];
+
+
+
+Initializer Lists
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Initializer List =  instantiate an array and provide the initial values for the elements of the array. This is essentially the same idea as 
+initializing a variable of a primitive data type in its declaration, except that the initial value for an array contains multiple values. An
+ initializer list can be used only when an array is first declared.
+
+ 	          int[] scores = {87, 98, 69, 87, 65, 76, 99, 83};
+
+
+
+Arrays as Parameters
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+An entire array can be passed as a parameter to a method. Because an array is an object, when an entire array is passed as a 
+parameter, a copy of the reference  to the original array is passed. 
+
+A method that receives an array as a parameter can permanently change an element of the array because it is referring to the original element
+value. However, the method cannot permanently change the reference to the array itself because a copy of the original reference is
+sent to the method.
+
+An element of an array can be passed to a method as well. If the element type is a primitive type, a copy of the value is passed. If that element 
+is a reference to an object, a copy of the object reference is passed.

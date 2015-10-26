@@ -1,0 +1,24 @@
+Section 6.6: Important Details
+
+Visual Effects and Shortcuts
+
+Borders
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Java provides the ability to put a border around any Swing component. A border is not a component itself but rather defines how the edge of 
+any component should be drawn and has an important effect on the design of a GUI.
+
+Types of Borders:
+
+Empty Border 	= Puts buffering space around the edge of a component, but otherwise has no visual effect.
+Line Border 	= Creates the effect of an etched groove around a component.
+Etched Border 	= A simple line surrounding the component.
+Bevel Border 	= Creates the effect of a component raised above the surface or sunken below it.
+Titled Border 	= Includes a text title on or around the border.
+Matte Border 	= Allows the size of each edge to be specified. Uses either a soild color or an image.
+Compound Border 	= A combination of two borders.
+
+
+Tool Tips & Mnemonics
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Mnemonic =  a character that allows the user to push a button or make a menu choice using the keyboard in addition to the mouse.
+It is essentially a keyboard shortcut for a command. 

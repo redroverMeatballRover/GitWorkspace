@@ -1,0 +1,18 @@
+Section 4 - Polymorphism via Interfaces
+ 
+Polymorphism by Interface is very much similar to polymorphism by inheritance. It's important to take note of when
+binding is happening and what amethod means during a specific point in time.
+ 
+However, make sure to note that a polymorphed object will only be able to use methods defined in the interface,
+not from the preceding object. If the situation calls for the polymorphed object to use such a method, it will
+have to be cast into the appropiate methodso the compiler will accept it as valid.
+ 
+Also, like in chapter 8, an interface name can be used as a parameter. These can then passed into the method. This
+is extremely useful as it allows the method to control the types of parameters passed into it, but also leaves it
+flexibility to accept different kinds of arguments.
+ 
+-Event Processing- (An old hand, you are)
+Remember that in order ot respond to an event, a relationship must be made between a listener object and a
+component that fires the event. By making the method call that adds the listener to the event, it is actually
+an example of polymorphism.
+ 

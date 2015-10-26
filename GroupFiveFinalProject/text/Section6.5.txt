@@ -1,0 +1,10 @@
+Section 6.5: Dialouge Boxes
+
+Dialog Box = A component that can be helpful to assist in GUI processing. A dialog box is a graphical window that pops up 
+on top of any currently active window so that the user can interact with it.
+
+File Choosers
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+File Chooser = a specialized dialog box that allows the user to select a file from a disk or other storage medium.
+Text Area = a component is defined by the JTextArea class
+

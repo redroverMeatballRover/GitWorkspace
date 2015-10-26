@@ -1,0 +1,30 @@
+Section 6.7: GUI Design & Review Questions
+
+Four Rules of GUI Design
+
+¦ Know the user.
+¦ Prevent user errors.
+¦ Optimize user abilities.
+¦ Be consistent.
+
+Summary of Key Concepts
+
+¦ A GUI is made up of components, events that represent user actions, and listeners that respond to those events.
+¦ A frame is displayed as a separate window, but a panel can only be displayed as part of another container.
+¦ Listeners are often defined as inner classes because of the intimate relationship between the listener and the GUI components.
+¦ Radio buttons operate as a group, providing a set of mutually exclusive options.
+¦ A slider lets the user specify a numeric value within a bounded rang
+¦ A combo box provides a drop down menu of options.
+¦ A timer generates action events at regular intervals and can be used to control an animation.
+¦ Every container is managed by a layout manager, which determines how components are visually presented.
+¦ When changes occur, the components in a container reorganize themselves according to the layout manager’s policy.
+¦ The layout manager for each container can be explicitly set.
+¦ A GUI’s appearance is a function of the containment hierarchy and the layout managers of each container.
+¦ Moving the mouse and clicking the mouse button generate events to which a program can respond.
+¦ A listener may have to provide empty method definitions for unheeded events to satisfy the interface.
+¦ Rubberbanding is the graphical effect caused when a shape seems to expand as the mouse is dragged.
+¦ Key events allow a program to respond immediately to the user pressing keyboard keys.
+¦ A listener class can be created by deriving it from an event adapter class.
+¦ A file chooser allows the user to browse a disk and select a file to be processed.
+¦ A color chooser allows the user to select a color from a palette or using RGB values.
+¦ Borders can be applied to components to group objects and focus attention.

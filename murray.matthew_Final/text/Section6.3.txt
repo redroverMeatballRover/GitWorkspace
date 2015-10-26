@@ -1,0 +1,27 @@
+Section 6.3: Layout Managers
+
+Every container is managed by an object called a layout manager that determines how the components in the container
+are arranged visually. The layout manager is consulted  when needed, such as when the container is
+ resized or when a component is added to the container.
+
+setLayout method = we use this method to choose which layout to use.
+Flow Layout = Organizes components from left to right, starting new rows as necessary.
+
+Tabbed Pane = a container that allows the user to select (by clicking on a tab) which of several panes is 
+currently visible. A tabbed pane is defined by the JTabbedPane class.
+
+Flow Layout = Easiest layout manager to use. As we’ve mentioned, the JPanel class uses flow layout by default. 
+Flow layout puts as many components as possible on a row,  at their preferred size. When a component 
+cannot fit on a row, it is put on the next row.
+
+Border Layout = Organizes components into five areas (North, South, East, West, and Center).
+Grid Layout = Organizes components into a grid of rows and columns.
+
+Grid Layout presents a container’s components in a rectangular grid of rows and columns. 
+One component is placed in each grid cell, and all cells are the same size.
+
+As buttons are added to the container, they fill the grid (by default) from left to right and top to bottom. 
+There is no way to explicitly assign a component to a particular location in the grid other than the 
+order in which they are added to the container.
+
+Box Layout = Organizes components into a single row or column.

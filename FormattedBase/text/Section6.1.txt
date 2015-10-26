@@ -1,0 +1,31 @@
+Section 6.1: GUI Elements
+
+Many programs provide a graphical user interface (GUI) through which a user interacts with the program. As the name implies, a GUI makes use of graphical screen components such as windows, buttons, check boxes, menus, and text fields.
+GUIs often provide a more natural and rich experience for the user comparedd to a simple text-based, command line environment. This chapter explores the various issues related to developing a GUI in Java. 
+This study guide will cover and isolate the main points in this section. 
+
+Frames & Panels: 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GUI = Graphical User Interface
+
+The basis of all GUIs : Components = object that defines a screen element used to display information / allow a user to interact with a program.
+		  Listeners       = object that "waits" for an event to occur and responds in some way when it does. 
+		  Events 	       = object that represents some occurance in which we may be interested. 
+
+
+containers = special type of component used to hold and organize other components.
+
+
+
+
+Buttons & Action Events
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+Determining Event Sources
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

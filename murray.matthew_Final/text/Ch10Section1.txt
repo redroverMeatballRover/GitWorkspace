@@ -1,0 +1,20 @@
+Section 1: Exception Handling
+
+Coding problems that arise in a Java program may generate exceptions or errors. 
+
+Exception- an object that defines an unusual or invalid proccessing. Exceptions are  
+predefined and can be caught and handled. An error is similar to an exception, 
+except that the situation is unrecoverable and it shouldn't be caught. Java, trying 
+to be nice, predefined common exceptions and errors that could happen while running 
+a program. If this isn't good enough for you, you can make your own exceptions. 
+
+Some examples of situations that will produce exceptions:
+ -attempting to divide by zero
+  - an array index that is out of bounds a specified file that could not be found
+  - a requested I/O operation that could not be completed normally
+  - attempting to follow a null reference
+  - attempting to execute an operation that violates some kind of security measure.
+    The name of the exception says a lot about the sitution in which the exception occurs. 
+
+Some exceptions are just a stupid programer error, while others are  out of the programmer's hands. 
+Some exceptions are come from a wrong situation, while others occur in unusual conditions.

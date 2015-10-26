@@ -1,0 +1,13 @@
+Section 10.3: Try - Catch
+
+The try-catch statement identifies a block of statements that may throw an exception. A catch 
+clause, which follows a try block, defines how a particular kind of exception is handled. A try 
+block can have several catch clauses associated with it. Each catch clause is called an exception
+handler. When the compiler runs into a try-catch block, it runs whatever is in the try block. If
+no exception or error occurs, it runs normally. Otherwise the program runs the code within the 
+catch block. In the case of multiple catch blocks, the catch block that will run will be the most
+specific exception possible.There is a third type of block. It is called the finally block. It
+runs no matter how the try-catch block is executed. The finally block is always the last block to
+be exitcuted in a try-catch. It is also coded after the catch clause(s). A try-catch does not
+need a catch block. However, if it does not have one, a finally clause may be used by itself if 
+that is appropriate for the situation.

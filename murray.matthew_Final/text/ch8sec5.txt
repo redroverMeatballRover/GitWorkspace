@@ -1,0 +1,20 @@
+Section 5 - Designing For Inheritance
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+Finale. We've gone over the big parts of designing with inheritance in mind. Here's the recap.
+ 
+-Every child should have an is-a relationship with the parent.
+-Design using a class hierarchy to make the most of software reuse.
+-Make sure to keep parents with common aspects as close to the top of the hierarchy as possible.
+-Override methods as needed to tailor-suit a child for a purpose.
+-Add new variables to children but try hard not to shadow variables.
+-Allow each class to tkae care of itself. Use the super reference to invoke the parent's constructor and use
+overridden methods as needed.
+-Design the hierarccy to cover the needs of the program as well as future needs.
+-Use abstract classes to make common methods for the more fleshed out classes near the bottom.
+-Use visibility modifers to manage scope across the program and avoid violating enapsulation.
+ 
+-Restricting Inheritance- (Turns out you don't get everything in the will)
+The final modifier can be used to to keep some aspects from being inherited. It can also be used to keep an
+entir class from being inherited. The power is yours when it comes to curtailing inheritance.
+ 

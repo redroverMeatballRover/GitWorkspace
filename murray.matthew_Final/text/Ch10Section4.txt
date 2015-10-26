@@ -1,0 +1,12 @@
+Section 10.4: Exception Propogation
+
+We can design our software so that an exception is caught and handled at an outer level in the 
+method calling hierarchy. If an exception is not caught and handled in the method where it 
+occurs, control is immediately returned to the method that invoked the method that produced the 
+exception. If it isn’t caught there, control returns to the method that called it, and so on. This
+process is called exception propagation.
+
+This will occur until the exception has been handeled or until the propagation hits the main 
+method. If the propagation hits the main method, the program will terminate and print an 
+exception message. To catch or not to catch the exception, that is the question you must answer.
+Sometimes it is better to let the program terminate.

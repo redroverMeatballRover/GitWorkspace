@@ -1,0 +1,18 @@
+Section 2 - Polymorphism by Inheritance
+ 
+When a reference variable is declared, it can be used to refer to any object of the class name it was declared
+with.it can also refer to any class related to its declared type by inheritance.
+ 
+Imagine if Dog had a child called Domestic.So if a new Domestic object was made called pup, husky could be used
+to refer to pup. Remeber the is-a relationship.This kind of relationship can work since a husky is a Dog and a pup
+is also a Dog. The reverse, assigning Dog to husky can also be done but requires an explicit cast. It's also
+rarely useful since the is-a relationship can break down in some cases. A husky does have the same functionality
+of a Dog but the reverse is not always so.
+ 
+This type of polymorphism is also good down the hierarchy. if Dog was derived was a class called Animal, then
+Animal could make a new reference that points to a Domestic object. Also going all the way to the source with
+this idea, an Object reference can refer to any Object since all classes originate from the Object class.
+ 
+Remeber when a polymorphed object has it's methods called, it will use the mthods it has in that period of time.
+Use of a UML Diagram may help one to see where an object and it's metods should be called.
+ 

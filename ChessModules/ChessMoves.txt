@@ -1,0 +1,34 @@
+Placing a new piece at a specific location.
+Examples:
+
+qld1 // places a white (light) queen on d1
+kle2  
+rla2
+blc2
+nlb2
+pla3
+
+
+qdd8
+kde8 // places a black (dark) king on e8
+rda8
+bdc8
+ndb8
+pda7
+
+
+• Moving a single piece from a location to another location.
+Examples:
+
+o d8 h4 //moves the piece on d8 to h4
+o c4 d6* //moves the piece on c4 to d6 and captures the
+piece on d6
+
+
+
+
+
+• Moving two pieces.
+Examples:
+1. e1 g1 h1 f1 // moves the king from e1 to g1 and the
+rook from h1 to f1 (called king-side castling)

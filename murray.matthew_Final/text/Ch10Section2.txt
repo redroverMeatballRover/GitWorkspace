@@ -1,0 +1,8 @@
+Section 10.2: Uncaught Exceptions
+
+If an exception goes unhandeled, the program will terminate when it hits the exception and a 
+message in red will be produced. The first line will tell you what happened,  including the exception 
+that occured and why it occured. The rest of the message is called a stack trace. It states where the 
+exception occured. Depending on where the exception originated, the stack trace can be one or more
+lines long. The first trace line indicates the method, file, and line number where the exception occurred. 
+The other trace lines, if present, indicate the methods that were called to get to the method that produced the exception.

@@ -1,0 +1,58 @@
+Chapter 3: Using Classes & Objects
+
+-The act of creating an object using the new operator is called instantiation. An object is said to be an instance of a particular class.
+-After the new operator creates the object, a constructor is invoked to help set it up initially.
+-Multiple reference variables can refer to the same object. When two objects refer to the same variable they are aliases of each other.
+-Methods are often executed on a particular object, and that object’s state usually affects the results.
+-A class library is a set of classes that supports the development of programs.
+-The class library is made up of several clusters of related classes, which are sometimes called Java APIs, or application programming interfaces.
+-The Java standard class library is organized into packages.
+-To use classes from any other package, however, we must either fully qualify the reference or use an import declaration.
+-All classes of the java.lang package are automatically imported for every program.
+-The Random class, which is part of the java.util package, represents a pseudorandom number generator.
+-A pseudorandom number generator performs a complex calculation to create the illusion of randomness.
+-The Math class provides a large number of basic mathematical functions that are often helpful in making calculations.
+
+-All the methods in the Math class are static methods (also called class methods), which means they can be invoked through the name of the class in which 
+they are defined, without having to instantiate an object of the class first.
+
+-The NumberFormat class and the DecimalFormat class are used to format information so that it looks appropriate when printed or displayed.
+-In addition to print and println, the System class has another output method called printf, which allows the user to print a formatted 
+string containing data values.
+
+-The printf method was added to Java to support the migration of legacy systems.
+
+-Java provides the ability to define an enumerated type, which can then be used as the type of a variable when it is declared. An enumerated type 
+establishes all possible values of a variable of that type by listing, or enumerating, them.
+
+-Enumerated types are type-safe, ensuring that invalid values will not be used.
+-A wrapper class allows a primitive value to be managed as an object.
+-Autoboxing is the automatic conversion between a primitive value and a corresponding wrapper object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

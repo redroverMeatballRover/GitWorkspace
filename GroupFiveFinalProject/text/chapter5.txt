@@ -1,0 +1,54 @@
+Chapter 5: Writing Classes
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-Recall that an object has a state, which is defined by the values of the attributes associated with that object.
+-An object also has behaviors, which are defined by the operations associated with that object.
+-A fundamental part of object-oriented software design is determining which classes should be created to define the program.
+-The nouns in a problem descriptionmay indicate some of the classes and objects needed in a program.
+-Part of the process of identifying the classes needed in a program is the process of assigning responsibilities to each class.
+-The heart of object-oriented programming is defining classes that represent objects with well-defined state and behavior.
+-The scope of a variable, which determines where it can be referenced, depends on where it is declared.
+-UML stands for the Unified Modeling Language, which has become the most popular notation for representing the design of an object-oriented program.
+-An object should be encapsulated, guarding its data from inappropriate access.
+-Some of the Java modifiers are called visibility modifiers because they control access to the members of a class.
+-Instance variables should be declared with private visibility to promote encapsulation.
+-Most objects contain accessor and mutator methods to allow the client to manage data in a controlled manner.
+-A method declaration specifies the code that is executed when the method is invoked.
+-The header of a method declaration includes the type of the return value, the method name, and a list of parameters that the method accepts.
+-The return type specified in the method header can be a primitive type, class name, or the reserved word void.
+-The value returned from a method must be consistent with the return type specified in the method header.
+-Parameters provide data to a method that allows the method to do its job.
+-When a method is called, the actual parameters are copied into the formal parameters.
+-A variable declared in a method is local to that method and cannot be used outside of it.
+-A constructor cannot have any return type, even void.
+-A static variable is shared among all instances of a class.
+-Static methods can be invoked through the class name.
+
+-The classes in a software system have various types of relationships to each other. Three of the more common relationships are
+ dependency, aggregation, and inheritance.
+
+-Dependency means that one class relies on another in some sense.
+-In some cases, a class depends on itself. That is, an object of one class interacts with another object of the same class.
+-An aggregate object is composed of other objects, forming a has-a relationship.
+-Once you have identified classes and assigned basic responsibilities, the design of each method will determine how exactly the 
+class will define its behaviors.
+-A complex service provided by an object can be decomposed and make use of private support methods.
+-When an object is passed to a method, the actual and formal parameters become aliases.
+
+-You can use the same method name with different parameter lists for multiple methods. This technique is called method overloading. It is 
+useful when you need to perform similar methods on different types of data.
+
+-The versions of an overloaded method are distinguished by the number, type, and order of their parameters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

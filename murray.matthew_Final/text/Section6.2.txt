@@ -1,0 +1,24 @@
+Section 6.2: Components
+
+In addition to push buttons, there are a variety of other interactive components that can be used in a GUI.
+Text Field = allows the user to enter typed input from the keyboard.
+Check Box = a button that can be toggled on or off using the mouse, indicating that a particular boolean condition is set or unset
+
+itemStateChanged method = a listener that determines what the revised style should be now that one of the check boxes has changed state
+
+radio button = is used with other radio buttons to provide a set of mutually exclusive options.
+When a radio button from the group is pushed, the other button in the group that is currently on is automatically toggled off.
+
+Slider = a GUI component that allows the user to specify a numeric value within a bounded range.
+JSlider class = has several methods that allow the programmer to tailor the look of a slider. A slider produces a change event, indicating 
+that the position of the slider and the value it 
+represents has changed.
+
+combo box = allows the user to select one of several options from a “drop down” menu.
+
+Timer = created from the Timer class of the javax.swing package,  it does not have a visual representation 
+that appears on the screen. it helps us manage an activity over time.
+
+A timer object generates an action event at regular intervals. To perform an animation, we can set up a timer to 
+generate an action event periodically, and then update the 
+animation graphics in the action listener.
